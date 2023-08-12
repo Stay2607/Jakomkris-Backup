@@ -1,0 +1,107 @@
+.map {
+    height: 620px;
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+.sidebar {
+    border-radius: 10px;
+    background-color: #ffffffd8;
+    overflow: auto;
+    position: fixed;
+    z-index: 2;
+    top: 75px;
+    right: 10px;
+    padding: 0 20px !important;
+}
+
+.mapboxgl-popup-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+#custom h4 {
+    margin: 10px 0;
+}
+
+#custom div {
+    margin: 10px 0;
+}
+
+#custom div a {
+    font-size: 14px;
+    color: #E15E21;
+}
+
+#custom div a:hover {
+    color: #993e14;
+}
+
+.mapboxgl-ctrl-geocoder.mapboxgl-ctrl {
+    height: 40px;
+    font-size: small;
+    width: min-content;
+    position: fixed;
+}
+
+input.mapboxgl-ctrl-geocoder--input {
+    height: 40px;
+}
+
+svg.mapboxgl-ctrl-geocoder--icon.mapboxgl-ctrl-geocoder--icon-search {
+    top: 10px;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-group {
+    position: fixed;
+    top: 115px;
+    display: flex;
+}
+
+.mapboxgl-ctrl-group button {
+    width: 25px;
+}
+
+.sidebar>div#custom>table>tbody>tr>td {
+    padding: 5px;
+}
+
+.sidebar>div#custom>table,
+.sidebar>div#custom>table>tbody>tr>td {
+    border: solid 1px #BBB;
+    border-collapse: collapse;
+}
+
+.sidebar>#custom div>#link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .map-sidebar-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sidebar>#custom>h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 80% !important;
+        position: static;
+        margin-top: 80px;
+        margin-bottom: -20px;
+    }
+
+    .sidebar table {
+        width: 100%;
+    }
+}

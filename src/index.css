@@ -1,0 +1,56 @@
+html {
+  background-color: #F8FAFB;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Coloring text */
+.blue-signature {
+  color: #007CBD;
+}
+
+.orange-signature {
+  color: #E15E21;
+}
+
+.gray {
+  color: #000000a0;
+}
+
+/* Change Font Size */
+.s0 {
+  font-size: 32px;
+}
+
+.s1 {
+  font-size: 28px;
+}
+
+.s2 {
+  font-size: 24px;
+}
+
+.s3 {
+  font-size: 20px;
+}
+
+.s4 {
+  font-size: 16px;
+}

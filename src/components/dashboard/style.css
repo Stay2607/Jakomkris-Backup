@@ -1,0 +1,56 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cardDashboard {
+    border: 1px solid #BBB;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    max-width: 40%;
+}
+
+.cardImg {
+    width: 27px;
+    height: fit-content;
+}
+#imgDisaster{
+    width: 37px;
+}
+
+.cardDashboard table>tr:nth-child(1)>td {
+    width: 100%;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #DDD;
+    padding: 5px;
+}
+
+.cardDashboard table>tr:nth-child(2) td:nth-child(1) {
+    float: left;
+    padding: 5px;
+}
+
+.cardDashboard table>tr:nth-child(2) td:nth-child(2) {
+    float: right;
+    padding: 5px;
+}
+
+#chart {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+@media (max-width: 500px) {
+    #chart {
+        margin: 0px;
+    }
+}
